@@ -1,0 +1,52 @@
+{
+  "name": "tasty",
+  "version": "1.0.0",
+  "description": "Simple angular application",
+  "files": [
+    "etc",
+    "img",
+    "js",
+    "less",
+    "mock",
+    "test",
+    "gulpfile.js",
+    "index.html",
+    "webpack.config.dev.js",
+    "webpack.config.prod.js"
+  ],
+  "keywords": [
+      "es6", "tasty"
+  ],
+  "author": "Nick ",
+  "license": "MIT",
+  "dependencies":{
+    "angular": "^1.4.9",
+    "angular-animate": "^1.4.9",
+    "angular-route": "^1.4.9",
+    "angular-sanitize": "^1.4.9",
+    "angular-aria": "^1.4.9",
+    "angular-messages": "^1.4.9",
+    "angular-material": "^1.0.2",
+    "splash-screen": "^2.2.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.1",
+    "ng-annotate-loader": "^0.1.0",
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "css-loader": "^0.23.1",
+    "del": "^2.2.0",
+    "file-loader": "^0.8.5",
+    "gulp": "^3.9.0",
+    "gulp-replace": "^0.5.4",
+    "gulp-util": "^3.0.7",
+    "less": "^2.5.3",
+    "less-loader": "^2.2.2",
+    "postcss-loader": "^0.8.0",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.12",
+    "webpack-dev-server": "^1.14.1"
+  }
+}

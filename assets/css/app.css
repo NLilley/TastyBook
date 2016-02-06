@@ -1,0 +1,46 @@
+header {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+body {
+    background: -moz-linear-gradient(-45deg, #ff3f3f -1%, #e77fff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #ff3f3f -1%, #e77fff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #ff3f3f -1%, #e77fff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main {
+    background-color: hsla(0, 100%, 100%, 0.8);
+    width: 80%;
+    margin: 20px auto 0 auto;
+    padding: 20px;
+
+}
+
+recipe-list {
+    display: block;
+}
+
+recipe-list-item {
+    display: block;
+    margin: 10px auto 10px auto;
+    padding: 20px;
+
+    max-width: 400px;
+    min-height: 64px;
+    line-height: 64px;
+
+    border: 1px solid lightgrey;
+    background: -moz-linear-gradient(top, #ffff88 0%, #85f78b 100%);
+    background: -webkit-linear-gradient(top, #ffff88 0%,#85f78b 100%);
+    background: linear-gradient(to bottom, #ffff88 0%,#85f78b 100%);
+    font-size: 3rem;
+}
+
+recipe-list-item-icon {
+    display: block;
+    float: right;
+}
