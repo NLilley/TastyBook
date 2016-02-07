@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html ng-app="tasty">
 <head>
-    <title>TASTY!</title>
+    <title>TastyBook!</title>
     <script type="text/javascript" src="js/bundle.js" charset="utf-8"></script>
 </head>
-<body ng-controller="baseController">
-<main>
-    <header>TASTY!</header>
-    <recipe-list recipes="recipes"></recipe-list>
-</main>
+<body>
+<div class="content-wrapper">
+    <main ng-view></main>
+</div>
 </body>
 </html>

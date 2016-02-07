@@ -1,17 +1,26 @@
-let recipeListTemplate = `
+/**
+ * RecipeList Controller used for presenting a simple interactive recipe list to the user.
+ * When a recipe item is clicked you are routed to the recipe itself.
+ */
+
+import {recipes} from '../data.js'
+
+const recipeListTemplate = `
+<recipe-list>
+    <header>TastyBook!</header>
     <recipe-list-item ng-repeat="recipe in recipeList"></recipe-list-item>
+</recipe-list>
 `;
 
-let recipeListDirective = () => ({
-    restrict: 'E',
-    scope: {
-        recipeList: "=recipes"
-    },
-    template: recipeListTemplate
-});
+let recipeListController = ($scope, $location) => {
+    $scope.recipeList = recipes;
+    $scope.navigate = path => {
+      $location.path(path);
+    };
+};
 
-let recipeListItemTemplate = `
-    <div class="recipe-list-item">
+const recipeListItemTemplate = `
+    <div class="recipe-list-item" ng-click="navigate('/recipe/' + recipe.id)">
         {{ recipe.name }}
          <recipe-list-item-icon><i class="fa {{recipe.icon}}"></i></recipe-list-item-icon>
     </div>
@@ -24,4 +33,4 @@ let recipeListItemDirective = () => {
 };
 
 
-export {recipeListItemDirective, recipeListDirective}
+export {recipeListItemDirective, recipeListController, recipeListTemplate}

@@ -1,32 +1,23 @@
 {
   "name": "tasty",
   "version": "1.0.0",
-  "description": "Simple angular application",
-  "files": [
-    "etc",
-    "img",
-    "js",
-    "less",
-    "mock",
-    "test",
-    "gulpfile.js",
-    "index.html",
-    "webpack.config.dev.js",
-    "webpack.config.prod.js"
-  ],
+  "description": "Simple angular recipe application",
   "keywords": [
-      "es6", "tasty"
+    "es6",
+    "tasty"
   ],
-  "author": "Nick ",
+  "author": "Nick",
   "license": "MIT",
-  "dependencies":{
+  "dependencies": {
     "angular": "^1.4.9",
     "angular-animate": "^1.4.9",
-    "angular-route": "^1.4.9",
-    "angular-sanitize": "^1.4.9",
     "angular-aria": "^1.4.9",
-    "angular-messages": "^1.4.9",
     "angular-material": "^1.0.2",
+    "angular-messages": "^1.4.9",
+    "angular-route": "^1.5.0",
+    "angular-sanitize": "^1.4.9",
+    "font-awesome": "^4.5.0",
+    "mozilla-fira-pack": "0.0.1",
     "splash-screen": "^2.2.2"
   },
   "devDependencies": {

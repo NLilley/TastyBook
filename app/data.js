@@ -1,9 +1,12 @@
+// Move this into the data service!
+
 const recipes = [
     {
         id: 1,
-        name: 'Curry',
+        name: 'Chicken Curry',
         icon: 'fa-pause',
-        description: 'A flavour packed spicy Indian dish',
+        description: 'A flavour packed spicy Indian dish which has existed in one form or another thousands of years!',
+        feeds: 4,
         ingredients: [
             {
                 name: 'Onion',
@@ -107,14 +110,14 @@ const recipes = [
                 icon: 'fa-bluetooth',
                 description: 'Once the curry and side dishes are prepared, server together and enjoy.'
             }
-        ],
-        feeds: 4
+        ]
     },
     {
         id: 2,
         name: 'Spaghetti',
         icon: 'fa-bluetooth',
         description: 'Classic italian dish',
+        feeds: 1,
         ingredients: [
             {
                 name: 'Spaghetti',
@@ -146,8 +149,7 @@ const recipes = [
                 icon: 'fa-usb',
                 description: 'Drain water and eat from pan.  Fork and spook optional.'
             }
-        ],
-        feeds: 1
+        ]
     },
     {
         id: 3,
