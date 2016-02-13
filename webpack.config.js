@@ -39,19 +39,16 @@ module.exports = {
             }
         ]
     },
-    postcss: function() {
+    postcss: function () {
         return [
             autoprefixer({browsers: ['last 5 versions']})
         ];
     },
     resolve: {
         root: [
-            path.resolve(__dirname),
-            //path.resolve(__dirname, 'js/'),
-            //path.resolve(__dirname, 'js/fw/')
+            path.resolve(__dirname)
         ]
     },
     plugins: [
-        new webpack.HotModuleReplacementPlugin()
     ]
 };

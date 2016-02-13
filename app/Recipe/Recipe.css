@@ -1,0 +1,47 @@
+.recipe-header {
+    font-size: 5rem;
+}
+
+.recipe-icon{
+    display: block;
+    margin: 20px auto 20px auto;
+}
+
+.recipe-description {
+    text-align: center;
+    margin: 20px 0 20px;
+
+}
+
+.recipe-feeds {
+    text-align: right;
+}
+
+.recipe-ingredients {
+    margin: 20px 0 20px;
+    padding: 10px;
+
+    background-color: hsla(0, 100%, 100%, 0.8);
+    border-radius: 20px;
+}
+
+ingredient {
+    display: block;
+    margin: 6px;
+}
+
+.recipe-steps{
+    margin: 20px 0 20px;
+    padding: 10px;
+
+    background-color: hsla(0, 100%, 100%, 0.8);
+    border-radius: 20px;
+}
+
+step {
+    display: block;
+    margin: 6px;
+    padding: 6px;
+    border: 1px solid lightgrey;;
+    border-radius: 10px;
+}

@@ -4,7 +4,7 @@ const recipes = [
     {
         id: 1,
         name: 'Chicken Curry',
-        icon: 'fa-pause',
+        icon: 'Chicken-52.png',
         description: 'A flavour packed spicy Indian dish which has existed in one form or another thousands of years!',
         feeds: 4,
         ingredients: [
@@ -72,42 +72,42 @@ const recipes = [
         steps: [
             {
                 step: '1',
-                icon: 'fa-bluetooth',
+                icon: 'Small Axe-52.png',
                 description: 'Chop the onions.'
             },
             {
                 step: '2',
-                icon: 'fa-bluetooth',
+                icon: 'Gas-52.png',
                 description: 'Heat oil in a reasonably sized pan.'
             },
             {
                 step: '3',
-                icon: 'fa-bluetooth',
+                icon: 'Onion Filled-50.png',
                 description: 'Brown the onions, covering them in salt once they are in the pan.'
             },
             {
                 step: '4',
-                icon: 'fa-bluetooth',
+                icon: 'Kitchen-52.png',
                 description: 'Cooking the chicken in the pan.'
             },
             {
                 step: '5',
-                icon: 'fa-bluetooth',
+                icon: 'Chili Pepper-52.png',
                 description: 'Once the chicken has cooked, turn the heat down and add all of the spices to the pan.'
             },
             {
                 step: '6',
-                icon: 'fa-bluetooth',
+                icon: 'Water-52.png',
                 description: 'Add enough water to the pan to prevent the curry from burning for 1 hour.'
             },
             {
                 step: '7',
-                icon: 'fa-bluetooth',
+                icon: 'Sack of Flour-52.png',
                 description: 'Before the curry has finished cooking, prepare your side dish.'
             },
             {
                 step: '8',
-                icon: 'fa-bluetooth',
+                icon: 'Happy-52.png',
                 description: 'Once the curry and side dishes are prepared, server together and enjoy.'
             }
         ]
@@ -115,7 +115,7 @@ const recipes = [
     {
         id: 2,
         name: 'Spaghetti',
-        icon: 'fa-bluetooth',
+        icon: 'Spaghetti-52.png',
         description: 'Classic italian dish',
         feeds: 1,
         ingredients: [
@@ -131,22 +131,22 @@ const recipes = [
         steps: [
             {
                 step: '1',
-                icon: 'fa-usb',
+                icon: 'Clenched Fist-52.png',
                 description: 'Take a handful of spaghetti.'
             },
             {
                 step: '2',
-                icon: 'fa-usb',
+                icon: 'Viking Helmet-52.png',
                 description: 'Snap spaghetti in half like a barbarian and place in boiling water.'
             },
             {
                 step: '3',
-                icon: 'fa-usb',
+                icon: 'Time-48.png',
                 description: 'Wait some time.'
             },
             {
                 step: '4',
-                icon: 'fa-usb',
+                icon: 'Spoon-48.png',
                 description: 'Drain water and eat from pan.  Fork and spook optional.'
             }
         ]
@@ -154,7 +154,7 @@ const recipes = [
     {
         id: 3,
         name: 'Pizza',
-        icon: 'fa-bluetooth',
+        icon: 'Pizza Filled-50.png',
         description: 'Manna from heaven.',
         feeds: 5000,
         ingredients: [
@@ -170,22 +170,22 @@ const recipes = [
         steps: [
             {
                 step: '1',
-                icon: 'fa-usb',
+                icon: 'Shake Phone Filled-50.png',
                 description: 'Phone a pizza place.'
             },
             {
                 step: '2',
-                icon: 'fa-usb',
+                icon: 'Time-48.png',
                 description: 'Wait about half an hour.'
             },
             {
                 step: '3',
-                icon: 'fa-usb',
+                icon: 'Gremlin-52.png',
                 description: 'Pay the Pizza gremlin'
             },
             {
                 step: '4',
-                icon: 'fa-usb',
+                icon: 'Beer-52.png',
                 description: 'Enjoy!'
             }
         ]

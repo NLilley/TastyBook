@@ -22,7 +22,7 @@ let recipeListController = ($scope, $location) => {
 const recipeListItemTemplate = `
     <div class="recipe-list-item" ng-click="navigate('/recipe/' + recipe.id)">
         {{ recipe.name }}
-         <recipe-list-item-icon><i class="fa {{recipe.icon}}"></i></recipe-list-item-icon>
+         <img class="recipe-list-item-icon" src="./assets/img/{{ recipe.icon }}">
     </div>
 `;
 
