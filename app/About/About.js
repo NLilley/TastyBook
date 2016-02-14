@@ -10,10 +10,10 @@ let aboutTemplate = `
     </p>
 
     <p>
-        To View the source code and build instructions, visit my GitHub page
+        To View the source code and build instructions, visit the GitHub project page.
     </p>
 
-    <a href="https://github.com/NLilley?tab=repositories" target="_blank">
+    <a href="https://github.com/NLilley/TastyBook" target="_blank">
             <img class="link-image" src="../assets/img/GitHub-64.png">
     </a>
 

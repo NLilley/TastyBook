@@ -5,7 +5,7 @@ const recipes = [
         id: 1,
         name: 'Chicken Curry',
         icon: 'Chicken-52.png',
-        description: 'A flavour packed spicy Indian dish which has existed in one form or another thousands of years!',
+        description: 'A flavour packed spicy Indian dish that has existed in one form or another for thousands of years!',
         feeds: 4,
         ingredients: [
             {
@@ -159,11 +159,11 @@ const recipes = [
         feeds: 5000,
         ingredients: [
             {
-                name: 'A telephone of some description',
+                name: 'A telephone',
                 quantity: 'at least 1'
             },
             {
-                name: 'Symbolic items of monetary value',
+                name: 'Monies',
                 quantity: 'About a tenner should do it'
             }
         ],

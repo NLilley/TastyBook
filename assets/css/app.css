@@ -1,20 +1,16 @@
 header {
     text-align: center;
     font-size: 4rem;
+    font-weight: bold;
     margin: 20px;
 }
 
 body {
-    background: -moz-linear-gradient(-45deg, #ff3f3f -1%, #e77fff 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, #ff3f3f -1%, #e77fff 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, #ff3f3f -1%, #e77fff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background: linear-gradient(215deg, #cfc -1%, #8e8 100%) fixed no-repeat;
+    background-size: cover;
+    min-height: 100%;
 
     font-family: 'Fira Sans', 'Fira Mono', sans-serif;
-}
-
-main {
 }
 
 p {
@@ -25,32 +21,16 @@ b {
     font-weight: bold;
 }
 
-recipe-list {
-    display: block;
+h1 {
+    font-size: 4rem;
 }
 
-recipe-list-item {
-    display: block;
-    margin: 10px auto 10px auto;
-    padding: 20px;
-
-    max-width: 400px;
-    min-height: 64px;
-    line-height: 64px;
-
-    border: 1px solid lightgrey;
-    background: -moz-linear-gradient(top, #ffff88 0%, #85f78b 100%);
-    background: -webkit-linear-gradient(top, #ffff88 0%, #85f78b 100%);
-    background: linear-gradient(to bottom, #ffff88 0%, #85f78b 100%);
+h2 {
     font-size: 3rem;
-
-    cursor: pointer;
-    user-select: none;
 }
 
-.recipe-list-item-icon {
-    display: block;
-    float: right;
+h3 {
+    font-size: 2rem;
 }
 
 .text-center {
@@ -58,38 +38,17 @@ recipe-list-item {
 }
 
 .content-wrapper {
-    background-color: hsla(0, 100%, 100%, 0.8);
-    /*width: 80%;*/
+    background-color: hsla(0, 100%, 100%, 0.94);
     margin: 0 auto 0 auto;
     padding: 20px;
+    border-radius: 0 10px 10px 10px;
+    /*border: 1px solid #333;*/
 }
 
 .book-wrapper{
     padding: 20px 40px 20px 40px;
     width: 80%;
     margin: auto;
-}
-
-nav {
-    display: inline-block;
-    position: relative;
-    top: 92px;
-    left: -92px;
-    transform: rotate(-90deg);
-    font-size: 0;
-}
-
-.nav-tab{
-    display: inline-block;
-    padding: 10px;
-
-    background-color: whitesmoke;
-    border: 1px solid lightgrey;
-
-    font-weight: bold;
-    font-size: 1rem;
-
-    cursor: pointer;
 }
 
 .link-image {

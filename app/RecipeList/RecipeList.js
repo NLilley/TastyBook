@@ -4,26 +4,31 @@
  */
 
 import {recipes} from '../data.js'
+import './RecipeList.css'
 
 const recipeListTemplate = `
 <recipe-list>
     <header>TastyBook!</header>
-    <recipe-list-item ng-repeat="recipe in recipeList"></recipe-list-item>
+    <recipe-list-item class="recipe-list-item" ng-repeat="recipe in recipeList" ng-click="navigate('/recipe/' + recipe.id)"></recipe-list-item>
 </recipe-list>
 `;
 
 let recipeListController = ($scope, $location) => {
     $scope.recipeList = recipes;
     $scope.navigate = path => {
-      $location.path(path);
+        $location.path(path);
     };
 };
 
 const recipeListItemTemplate = `
-    <div class="recipe-list-item" ng-click="navigate('/recipe/' + recipe.id)">
-        {{ recipe.name }}
-         <img class="recipe-list-item-icon" src="./assets/img/{{ recipe.icon }}">
-    </div>
+        <div class="recipe-list-item-name">{{ recipe.name }}</div>
+        <div class="recipe-list-item-spacer">
+            <div class="recipe-list-item-icon-container">
+                <div class="recipe-list-item-icon">
+                    <img src="./assets/img/{{ recipe.icon }}">
+                </div>
+            </div>
+        </div>
 `;
 
 let recipeListItemDirective = () => {

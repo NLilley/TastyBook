@@ -22,12 +22,12 @@ let recipeTemplate = `
     </div>
 
     <div class="recipe-ingredients">
-        <b>Ingredients:</b>
+        <h3>Ingredients:</h3>
         <ingredient ng-repeat="ingredient in recipe.ingredients"></ingredient>
     </div>
 
     <div class="recipe-steps">
-        <b>Steps:</b>
+        <h3>Steps:</h3>
         <step ng-repeat="step in recipe.steps"></step>
     </div>
 `;
@@ -37,7 +37,9 @@ const ingredientTemplate = `
 `;
 
 let stepTemplate = `
-Step {{step.step}} : {{step.description}} <img src="./assets/img/{{step.icon}}" width="50" height="50">
+    <b>Step {{step.step}}:</b>
+    <span class="recipe-step-description">{{step.description}}</span>
+    <span class="recipe-step-image"><img src="./assets/img/{{step.icon}}" width="50" height="50"></span>
 `;
 
 
