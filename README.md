@@ -6,7 +6,7 @@ This is a simple Angular webapp created for the purposes of learning Angular
 
 You can now see a live demo of this webapp at 
 
-[nlilley.io:8001](http://nlilley.io:8001)
+[nlilley.io:8001](http:/www.nlilley.io:8001)
 
 ##Build:
 
