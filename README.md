@@ -6,7 +6,7 @@ This is a simple Angular webapp created for the purposes of learning Angular
 
 You can now see a live demo of this webapp at 
 
-[nlilley.io:8001](nlilley.io:8001)
+[nlilley.io:8001](http://nlilley.io:8001)
 
 ##Build:
 
@@ -29,7 +29,7 @@ To simply serve the application run:
 
 > webpack-dev-server
 
-You should now be able to view the app at [localhost:8080](localhost:8080)
+You should now be able to view the app at [localhost:8080](http://localhost:8080)
 
 To serve the website in full, the server.js script can be used.  Firstly build the project with webpack, 
 then move the built app.js into the assets folder where it can be served.  This can be done with
