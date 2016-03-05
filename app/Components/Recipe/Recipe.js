@@ -2,7 +2,6 @@
  * Recipe controller used for presenting users with explicit recipe instructions
  */
 
-import {recipes} from '../data.js'
 import './Recipe.css';
 
 
@@ -43,10 +42,10 @@ let stepTemplate = `
 `;
 
 
-let recipeController = ($scope, $route) => {
+let recipeController = ($scope, $route, Data) => {
     let recipeId = $route.current.params.recipeId;
 
-    $scope.recipe = recipes.find(recipe => {
+    $scope.recipe = Data.recipes.find(recipe => {
         return recipe.id == recipeId;
     });
 

@@ -3,7 +3,6 @@
  * When a recipe item is clicked you are routed to the recipe itself.
  */
 
-import {recipes} from '../data.js'
 import './RecipeList.css'
 
 const recipeListTemplate = `
@@ -13,8 +12,8 @@ const recipeListTemplate = `
 </recipe-list>
 `;
 
-let recipeListController = ($scope, $location) => {
-    $scope.recipeList = recipes;
+let recipeListController = ($scope, $location, Data) => {
+    $scope.recipeList = Data.recipes;
     $scope.navigate = path => {
         $location.path(path);
     };

@@ -7,8 +7,9 @@
 <body>
 <div class="book-wrapper">
     <nav ng-controller="nav">
+        <div class="nav-tab" ng-click="navigate('/statistics')">Statistics</div>
         <div class="nav-tab" ng-click="navigate('/about');">About</div>
-        <div class="nav-tab" ng-click="navigate('/');" style="">Recipes</div>
+        <div class="nav-tab" ng-click="navigate('/');">Recipes</div>
     </nav>
     <div class="content-wrapper">
         <main ng-view></main>
