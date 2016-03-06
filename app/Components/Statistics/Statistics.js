@@ -34,6 +34,10 @@ let statisticsController = ($scope, Data) => {
     $scope.steps = Data.recipes.reduce((acc, recipe) => {
         return acc + recipe.steps.length
     }, 0);
+
+    return {
+        link: () => console.log('eyyyyy!')
+    }
 };
 
 export {statisticsTemplate, statisticsController}

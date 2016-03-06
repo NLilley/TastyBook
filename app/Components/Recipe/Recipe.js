@@ -9,7 +9,7 @@ let recipeTemplate = `
     <header class="recipe-header">{{recipe.name}}</header>
 
     <div class="text-center recipe-icon">
-        <img src="./assets/img/{{recipe.icon}}">
+        <img ng-src="./assets/img/{{recipe.icon}}">
     </div>
 
     <div class="recipe-description">
@@ -38,7 +38,7 @@ const ingredientTemplate = `
 let stepTemplate = `
     <b>Step {{step.step}}:</b>
     <span class="recipe-step-description">{{step.description}}</span>
-    <span class="recipe-step-image"><img src="./assets/img/{{step.icon}}" width="50" height="50"></span>
+    <span class="recipe-step-image"><img ng-src="./assets/img/{{step.icon}}" width="50" height="50"></span>
 `;
 
 

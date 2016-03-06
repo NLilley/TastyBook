@@ -24,7 +24,7 @@ const recipeListItemTemplate = `
         <div class="recipe-list-item-spacer">
             <div class="recipe-list-item-icon-container">
                 <div class="recipe-list-item-icon">
-                    <img src="./assets/img/{{ recipe.icon }}">
+                    <img ng-src="./assets/img/{{ recipe.icon }}">
                 </div>
             </div>
         </div>
